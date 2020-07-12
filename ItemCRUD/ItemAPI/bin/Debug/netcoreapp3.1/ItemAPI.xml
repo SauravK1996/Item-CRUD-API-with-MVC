@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ItemAPI</name>
+    </assembly>
+    <members>
+        <member name="M:ItemAPI.Controllers.ItemsController.GetItems">
+            <summary>
+            Get list of all Items
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ItemAPI.Controllers.ItemsController.GetItem(System.Int32)">
+            <summary>
+            Get individual Item
+            </summary>
+            <param name="itemid">The id of the Item list</param>
+            <returns></returns>
+        </member>
+        <member name="M:ItemAPI.Controllers.ItemsController.CreateItem(ItemAPI.Models.Dtos.ItemDto)">
+            <summary>
+            Create new Item
+            </summary>
+            <param name="itemDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ItemAPI.Controllers.ItemsController.UpdateItem(System.Int32,ItemAPI.Models.Dtos.ItemDto)">
+            <summary>
+            Update the existing item
+            </summary>
+            <param name="itemId">Enter Item id</param>
+            <param name="itemDto">Enter Updated Item</param>
+            <returns></returns>
+        </member>
+        <member name="M:ItemAPI.Controllers.ItemsController.DeleteItem(System.Int32)">
+            <summary>
+            Delete the existing Item
+            </summary>
+            <param name="itemId"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
